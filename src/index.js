@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Signature from './Signature'
 import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Signature />
   </React.StrictMode>,
   document.getElementById('root')
 );
