@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Demo from './Demo'
-import Gherkin from './Gherkin'
+import Test from './Test'
 import Notes from './Notes'
 import Setup from './Setup'
 import Signature from './Signature'
@@ -15,11 +15,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Setup />
     <Container>
-      <Demo />
-    <Gherkin />
+    <Test />
     <Notes />
     <Summary />
     <Signature />
+    <Demo />
     </Container>
   </React.StrictMode>,
   document.getElementById('root')

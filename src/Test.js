@@ -1,15 +1,16 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
+import Gherkin from './Gherkin'
 
-const Notes =() => {
+const Test =() => {
     return(
             <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-    <Form.Label> Tester Notes:</Form.Label>
-    <Form.Control as="textarea" rows={3} />
+    <Form.Label>Test:</Form.Label>
+   <Gherkin />
   </Form.Group>
   </Form>
     )
 
 }
-export default Notes;
+export default Test;

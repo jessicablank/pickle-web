@@ -11,7 +11,7 @@ const Summary = () => {
           <Form>
               <Row className="mb-3">
                 <Col xs={3}>
-              <FloatingLabel controlID="floatingSummary" label="Summary">
+              {/* <FloatingLabel controlID="floatingSummary" label="Summary"> */}
               <Form.Select aria-label="Test Results">
                   <option> Test Results</option>
                   <option value="1">Pass</option>
@@ -19,7 +19,7 @@ const Summary = () => {
                   <option value="3">Protocol Fail</option>
                   <option value="4">N/A</option>
               </Form.Select>
-              </FloatingLabel>
+              {/* </FloatingLabel> */}
               </Col>
               </Row>
               </Form>

@@ -11,11 +11,11 @@ const Signature = () => {
           <Form>
               <Row className="mb-3">
                   <Col xs={5}>
-                <Form.Label>Test Performed By</Form.Label>
+                <Form.Label>Test Performed By:</Form.Label>
                 <Form.Control type="text" placeholder="Tester Name" />
                 </Col>
                 <Col xs={5}>
-                <Form.Label>Signature</Form.Label>
+                <Form.Label>Signature:</Form.Label>
                 <Form.Control type="text" />
                </Col>
                <Col>

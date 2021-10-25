@@ -3,7 +3,6 @@ import SyntaxHighlighter from 'react-syntax-highlighter';
 import { ascetic } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const Gherkin =() => {
-
     const codeString = `
     @ID-PORTAL:SRS:001.01 @Automated
     Scenario Outline: Support page header shall be localized to the patient's region and language.
